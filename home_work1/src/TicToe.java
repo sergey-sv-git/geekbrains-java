@@ -13,7 +13,7 @@ public class TicToe {
     private static char[][] field;
     private static int fieldSizeX;
     private static int fieldSizeY;
-    private static int vin = 4; // условие выигрыша
+    private static int vin = 4; // условие выигрыша, можно варьировать
 
     private static void initField(){
         fieldSizeY = 5;
