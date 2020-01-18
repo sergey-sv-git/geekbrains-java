@@ -10,8 +10,6 @@ public class GameCanvas extends JPanel {
     MainCircles gameController;
     long lastFrameTime;
     BackGround backGround;
-    Sprite addSprite;
-    int count = 0;
 
     GameCanvas(MainCircles gameController) {
 
